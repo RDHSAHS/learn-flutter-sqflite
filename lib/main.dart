@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:namer_app/create.dart';
-import 'package:namer_app/database_instance.dart';
-import 'package:namer_app/product_model.dart';
+import 'package:namer_app/src/screens/createDB_screen.dart';
+import 'package:namer_app/src/services/database_instance.dart';
+import 'package:namer_app/src/models/product_model.dart';
 
 void main() {
   runApp(MyApp());
@@ -28,10 +28,10 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  MyHomePageState createState() => MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class MyHomePageState extends State<MyHomePage> {
   DatabaseInstance databaseInstance = DatabaseInstance();
 
   Future _refresh() async {

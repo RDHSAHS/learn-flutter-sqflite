@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:namer_app/database_instance.dart';
+import 'package:namer_app/src/services/database_instance.dart';
 
 class CreateScreen extends StatefulWidget {
   const CreateScreen({Key? key}) : super(key: key);

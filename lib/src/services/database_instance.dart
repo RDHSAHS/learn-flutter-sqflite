@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:namer_app/product_model.dart';
+import 'package:namer_app/src/models/product_model.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
